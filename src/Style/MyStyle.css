@@ -1,0 +1,191 @@
+
+/*Sectionone Start*/
+.parentdivone{
+  /* background-image: url('../Images/body.png'); */
+  /* background-image: linear-gradient(900deg,#491D4D 34%,transparent), url('../Images/body.png'); */
+  background-image: linear-gradient(2deg,#491D4D -50%,transparent), url('../Images/body.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-bottom: 44rem;
+
+}
+ 
+
+.imgg{  
+ width: 70px;
+  }
+  .shadoww{box-shadow: 2px 3px 10px 2px #f1efef;}
+  #relative_container{position: relative;}
+  /* #absolute_container{position: absolute;top: 360px; left: 10%;   */
+  /* #absolute_container{position: absolute;top:88%;} */
+#absolute_container{position: absolute;
+}
+  
+
+  @media  screen  and (min-width: 992px) {
+      #absolute_container{
+        top:88%;
+        left: 8.5%;
+
+    }
+   
+  }
+
+
+  @media (max-width: 575.98px) { 
+    #absolute_container{
+      top:88%;
+      left: 0%;
+
+  }
+  .parentdivone{
+    margin-bottom: 44rem;
+
+  }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    
+
+    #absolute_container{
+      top:88%;
+      left: 5.5%;
+
+  }
+  .parentdivone{
+    margin-bottom: 19rem;
+
+  }
+   }
+   /* @media (min-width: 577px) and (max-width: 770px) { 
+    
+
+    #absolute_container{
+      top:88%;
+      left: 10%;
+
+  }
+  .parentdivone{
+    margin-bottom: 44rem;
+
+  }
+   } */
+
+   @media (min-width: 992px) and (max-width: 1199.98px) {
+    #absolute_container{
+      top:88%;
+      left: 8.5%;
+
+  }
+  .parentdivone{
+    margin-bottom: 17rem;
+
+  }
+    }
+  
+    @media only screen and (width: 1024px) { 
+      #absolute_container{
+    top:88%;
+    left: 4%;
+  
+  } 
+  .parentdivone{
+    margin-bottom: 17rem;
+
+  }}
+  
+
+    @media (min-width: 1200px) { 
+        #absolute_container{
+      top:88%;
+      left: 8.5%;
+
+  }
+  .parentdivone{
+    margin-bottom: 17rem;
+
+  } }
+
+
+
+@media (min-width: 2000px) { 
+  #absolute_container{
+top:88%;
+left: 8.5%;
+
+} }
+/*Secrtionone End*/
+
+/*AboutUs Start*/
+#AboutUs{margin-bottom: 12rem;}
+/*AboutUs End*/
+
+/*Services Start*/
+#Services{margin-bottom: 12rem;}
+.parentServeces{
+ background-image: linear-gradient(8deg,#491D4D ,transparent), url('../Images/bg2.png');
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.imgServices{width: 40px;}
+
+/*Services End*/
+
+/*Contact Us Start*/
+.input{
+  border-radius: 50px;
+  height: 47px;
+}
+  .textarea{border-radius: 26px;
+    height: 110px;
+  padding-left: 43px !important; 
+
+}
+
+
+.btn-sm-square {
+    width: 46px;
+    height: 46px;
+}
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.input:focus {
+  border-color: #491d4d;
+  box-shadow: 0px 2px 4px #491d4d;
+}
+.textarea:focus {
+  border-color: #491d4d;
+  box-shadow: 0px 2px 4px #491d4d;
+}
+.left-inner-addon {
+  position: relative;
+}
+.left-inner-addon input {
+  padding-left: 35px !important; 
+}
+.left-inner-addon i {
+  position: absolute;
+  padding: 17px 17px;
+  pointer-events: none;
+  color:#491d4d
+}
+.bxs-message  {
+  position: absolute;
+  padding: 13px 22px;
+  pointer-events: none;
+  color:#491d4d
+}
+
+/*Contact Us End*/
+
+
